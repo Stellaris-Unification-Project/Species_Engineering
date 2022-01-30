@@ -43,8 +43,7 @@ leng_decision_life_engineering_project = {
             factor = 0
             owner = {
                 NOR = {
-                    has_ethic = ethic_xenophile
-                    has_ethic = ethic_fanatic_xenophile
+                    is_xenophile = yes
                     has_valid_civic = civic_machine_assimilator
                     has_valid_civic = civic_machine_servitor
                     has_authority = auth_hive_mind
@@ -54,11 +53,7 @@ leng_decision_life_engineering_project = {
         modifier = {
             factor = 0
             owner = {
-                OR = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                    has_valid_civic = civic_fanatic_purifiers
-                    has_valid_civic = civic_machine_terminator
-                }
+                is_homicidal = yes
             }
         }
         modifier = {
@@ -123,8 +118,7 @@ leng_decision_life_engineering_project_prim = {
             factor = 0
             space_owner = {
                 NOR = {
-                    has_ethic = ethic_xenophile
-                    has_ethic = ethic_fanatic_xenophile
+                    is_xenophile = yes
                     has_valid_civic = civic_machine_assimilator
                     has_valid_civic = civic_machine_servitor
                     has_authority = auth_hive_mind
@@ -134,11 +128,7 @@ leng_decision_life_engineering_project_prim = {
         modifier = {
             factor = 0
             space_owner = {
-                OR = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                    has_valid_civic = civic_fanatic_purifiers
-                    has_valid_civic = civic_machine_terminator
-                }
+                is_homicidal = yes
             }
         }
         modifier = {
@@ -235,8 +225,7 @@ leng_decision_life_engineering_project_presapient = {
             factor = 0
             owner = {
                 NOR = {
-                    has_ethic = ethic_xenophile
-                    has_ethic = ethic_fanatic_xenophile
+                    is_xenophile = yes
                     has_valid_civic = civic_machine_assimilator
                     has_valid_civic = civic_machine_servitor
                     has_authority = auth_hive_mind
@@ -246,11 +235,7 @@ leng_decision_life_engineering_project_presapient = {
         modifier = {
             factor = 0
             owner = {
-                OR = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                    has_valid_civic = civic_fanatic_purifiers
-                    has_valid_civic = civic_machine_terminator
-                }
+                is_homicidal = yes
             }
         }
         modifier = {

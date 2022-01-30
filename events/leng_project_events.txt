@@ -190,7 +190,7 @@ planet_event = {
 
     immediate = {
 	
-		random_pop = {
+		random_owned_pop = {
 			species = {
 				save_event_target_as = leng_project_species
 			}
@@ -526,7 +526,7 @@ planet_event = {
 		while = {
 			count = 4
 			create_pop = {
-				species = last_created
+				species = last_created_species
 			}					
 		}
 
@@ -723,7 +723,7 @@ planet_event = {
 		while = {
 			count = 4
 			create_pop = {
-				species = last_created
+				species = last_created_species
 			}					
 		}
 

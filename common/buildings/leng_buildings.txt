@@ -4,8 +4,10 @@ leng_building_evo_lab_1 = {
 	category = research
 	
 	potential = {
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 	}
 	
 	allow = {
@@ -100,8 +102,7 @@ leng_building_evo_lab_1 = {
 			factor = 2
             owner = {
                 OR = {
-                    has_ethic = ethic_xenophile
-                    has_ethic = ethic_fanatic_xenophile
+                    is_xenophile = yes
                 }
             }
         }
@@ -109,8 +110,7 @@ leng_building_evo_lab_1 = {
             factor = 0
             owner = {
                 NOR = {
-                    has_ethic = ethic_xenophile
-                    has_ethic = ethic_fanatic_xenophile
+                    is_xenophile = yes
                     has_valid_civic = civic_machine_assimilator
                     has_valid_civic = civic_machine_servitor
                     has_authority = auth_hive_mind
@@ -120,11 +120,7 @@ leng_building_evo_lab_1 = {
         modifier = {
             factor = 0
             owner = {
-                OR = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                    has_valid_civic = civic_fanatic_purifiers
-                    has_valid_civic = civic_machine_terminator
-                }
+                is_homicidal = yes
             }
         }
         modifier = {
